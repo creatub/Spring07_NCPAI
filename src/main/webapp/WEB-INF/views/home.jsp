@@ -9,6 +9,7 @@
 	ul li{
 		list-style:none;
 		font-size:1.2em;
+		margin:10px;
 	}
 </style>
 </head>
@@ -23,6 +24,7 @@
 		<li><a href="voiceform">Clova Voice 서비스(TTS)</a></li>
 		<li><a href="ocrform">Clova OCR 서비스</a></li>
 		<li><a href="captchaform">Captcha OCR 서비스</a></li>
+		<li><a href="emotionForm">감성분석 서비스(Komoran/MongoDB)</a></li>
 	</ul>
 </div>
 </body>

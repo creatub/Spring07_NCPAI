@@ -17,6 +17,14 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+	
+	<repositories>
+	<!-- komoran repository -->
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -167,6 +175,14 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
+		<!-- komoran -->
+		<dependency>
+			<groupId>com.github.shin285</groupId>
+			<artifactId>KOMORAN</artifactId>
+			<version>3.3.4</version>
+		</dependency>
+		<!-- ================================ -->
+		
 	</dependencies>
 
 	<build>
